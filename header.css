@@ -1,0 +1,125 @@
+/*header links und logo mit Fixer Position///////////////*/
+
+
+/*Eigenschaften für den Header*/
+header{
+    background-color: #1F2937;
+    height: auto;
+    position: fixed;
+    width: 100%;
+}
+
+/*Header Flexbox Verlinkungen und Logo*/
+.header_verlinkung_logo{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-decoration: none;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}  
+
+/*Header Logo*/
+header p{
+    font-size: 24px;
+    margin-top: 0px;
+}
+
+/*Header "This Webside is Awesome"*/
+header h1{
+    font-weight: 800;
+}
+
+/*Höhe der Links*/
+.header_verlinkung{
+    padding-top: 5px;
+}
+
+/*Header Verlinkungen*/
+.header_verlinkung a{
+    color : rgb(200, 200, 200);
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/*Header Hover für Verlinkungen*/
+.header_verlinkung_1:hover,.header_verlinkung_2:hover,.header_verlinkung_3:hover{
+    color: rgb(252, 252, 252);
+}
+
+
+/*Header inhalt////////////////////////////////////////////////////////*/
+
+/*Hintergrundfarbe für den Inhalt vom Header*/
+.header_inhalt_hintergrund{
+    background-color: #1F2937;
+}
+
+/*Flexboc für den Inhalt*/
+.header_inhalt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+/*Der Linke Seite vom Inhalt*/
+.header_inhalt_links{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 80px;
+}
+
+/*Linke Seite "This Webside is awesome"*/
+.header_inhalt_links h1{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 48px;
+}
+
+/*Linke Seite Text*/
+.header_inhalt_links p{
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-bottom: 1px;
+}
+
+/*Linke Seite Sign-up Button*/
+.header_inhalt_links a{
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #398cff;
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: max-content;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/*Linke Seite Sign-up Button Hover*/
+.header_inhalt_links a:hover{
+    background-color: #2b6ac2;
+}
+
+/*Rechte Seite von Inhalt*/
+.header_inhalt_rechts{
+    width: 50%;
+}
+
+/*Rechte Seite Bild*/
+.header_inhalt_rechts img{
+    width: 100%;
+    height: auto;
+    max-width: 1150px;
+    min-width: 350px;
+}

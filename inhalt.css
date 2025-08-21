@@ -1,0 +1,150 @@
+/*Flexbox von Inhalt der Seite*/
+.inhalt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*Erster Abschnitt/////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.information{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+/*Erster Abschnitt Überschrift "Some Random Information"*/
+.information h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-top: 50px;
+}
+
+/*Äußere Flexbox für Boxen und Text*/
+.information_boxen_text{
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/*Innere Flexbox für Boxen und Text */
+.information_container_boxen_text{
+    width: 200px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+/*Eigenschaften für die Boxen*/
+.information_container_boxen_text>div{
+    width: 200px;
+    height: 200px;
+    border: 3px solid  #398cff;
+    border-radius: 10px;
+}
+
+/*Eigenschaften für die Texte*/
+.information_container_boxen_text>p{
+    color: #1F2937;
+    text-align: center;
+}
+
+
+
+/*Zweiter Abschnitt/////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.zitat{
+    background-color: #E5E7EB;
+    width: 100%;
+}
+
+/*Text des Zitates*/
+.zitat_text{
+    font-style: italic;
+    margin-top: 150px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 5px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+/*Autor vom Zitat*/
+.zitat_autor{
+    text-align: end;
+    color: #1F2937;
+    font-size: 25px;
+    font-weight:bold;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+
+/*Dritter Abschnitt/////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*Flexbox für die Schaltfläche*/
+.schaltfläche_call_to_aktion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #398cff;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+/*Schrift in der Flexbox*/
+.schaltfläche_call_to_aktion_schrift{
+    margin-top: 30px;
+    margin-bottom:30px;
+    margin-left: 120px;
+    font-size: 18px;
+}
+
+/*Abstand für Call to action*/
+.schaltfläche_call_to_aktion_schrift>h3{
+    margin-bottom: 2px;
+}
+
+/*Abstand für text*/
+.schaltfläche_call_to_aktion_schrift>p{
+    margin-top: 2px;
+    color: #dfdfdf;
+}
+
+/*Eigenschaft für den Button*/
+.schaltfläche_call_to_aktion>a{
+    margin-right:150px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/*Hover Eigenschaften für den Button*/
+.schaltfläche_call_to_aktion a:hover{
+    background-color: #2b6ac2;
+}
+
+
+/*Fierter Abschnitt/////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*Hintergrund Letzer Abschnitt*/
+.copyright{
+    background-color: #1F2937;
+    width: 100%;
+}
+
+/*Schrift für letzten Abschnitt*/
+.copyright p{
+    text-align: center;
+    font-size: 15px;
+    color: #d5d5d5;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
